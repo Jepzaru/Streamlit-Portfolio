@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+html, body, [class*="st"], [class^="st"] {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.css-1d391kg {
+    background-color: red; 
+    padding: 20px;
+}
+
+
+.progress-bar {
+    height: 10px;
+    border-radius: 12px;
+    background-color: #333;
+    position: relative;
+    margin-bottom: 10px;
+}
+.progress-bar-filled {
+    height: 100%;
+    border-radius: 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.html-bar .progress-bar-filled { background-color: orange; }
+.css-bar .progress-bar-filled { background-color: blue; }
+.javascript-bar .progress-bar-filled { background-color: yellow; color: black; }
+.python-bar .progress-bar-filled { background-color: green; }
+.java-bar .progress-bar-filled { background-color: red; }
+
+.sidebar-link {
+    display: block;
+    padding: 10px 15px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+.sidebar-link:hover {
+    background-color: black;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+    border-radius: 15px;
+
+}
+
+.pop-out {
+    transition: transform 0.3s ease;
+}
+
+.pop-out:hover {
+    transform: scale(1.1);
+}
+
+
